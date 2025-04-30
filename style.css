@@ -1,18 +1,7 @@
 :root {
-  /* Color */
   --color-slate-900: #1f314f;
   --color-slate-500: #68778d;
   --color-slate-300: #d5e1ef;
-  --color-blue-600: #2c7dfa;
-  --color-blue-500: #3685ff;
-  --color-white: #ffffff;
-  /* Spacing */
-  --spacing-500: 40px;
-  --spacing-300: 24px;
-  --spacing-200: 16px;
-  /* Font size */
-  --text-preset-1: 22px;
-  --text-preset-2: 15px;
 }
 
 html {
@@ -40,7 +29,7 @@ html {
   row-gap: 1.5rem;
   padding: 1rem 1rem 2.5rem;
   border-radius: 20px;
-  background-color: var(--color-white);
+  background-color: #ffffff;
   box-shadow: 0 25px 25px rgb(0 0 0 / 5%);
 }
 
