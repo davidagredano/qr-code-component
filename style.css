@@ -1,0 +1,77 @@
+:root {
+  /* Color */
+  --color-slate-900: #1f314f;
+  --color-slate-500: #68778d;
+  --color-slate-300: #d5e1ef;
+  --color-blue-600: #2c7dfa;
+  --color-blue-500: #3685ff;
+  --color-white: #ffffff;
+  /* Spacing */
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  /* Font size */
+  --text-preset-1: 22px;
+  --text-preset-2: 15px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background-color: var(--color-slate-300);
+}
+
+.card {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 1rem 1rem 2.5rem;
+  border-radius: 20px;
+  background-color: var(--color-white);
+  box-shadow: 0 25px 25px rgb(0 0 0 / 5%);
+}
+
+.card__image {
+  border-radius: 10px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 0 1rem;
+}
+
+.card__title {
+  margin: 0;
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--color-slate-900);
+}
+
+.card__copy {
+  margin: 0;
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--color-slate-500);
+}
